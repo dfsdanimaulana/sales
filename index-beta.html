@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sales Per Sift</title>
+    <link rel="stylesheet" href="style-beta.css"/>
+</head>
+
+<body>
+  <center>
+    <form id="form1">
+      <div class="pilihan">
+        <img src="img/duit.png" alt="No" />
+        <strong>Sales Per Sift</strong>
+      </div>
+      <div class="pilihan">
+        POS 1:
+        <input type="number" name="" class="inp" id="p1" value="" /><br/>
+        POS 2:
+        <input type="number" name="" class="inp" id="p2" value="" /><br/>
+        POS 3: 
+        <input type="number" name=""class="inp" id="p3" value="" /><br/><br/>
+        Cust1:
+        <input type="number" name="" class="inp"id="c1" value="" /><br/>
+        Cust2:
+        <input type="number" name=""class="inp" id="c2" value="" /><br/>
+        Cust3:
+        <input type="number" name=""class="inp" id="c3" value="" /><br/>
+        <div id="parent">
+          <div id="hasil" onclick="copyText()"> 
+          </div>
+          <input type="button" name="copy" class="submit" value="Hasil" onclick="getValue()" />
+          <button class="submit" type="reset">hapus</button>
+        </div>
+      </div>
+    </form>
+  </center>
+  <center>
+  <form id="form2">
+    <div class="pilihan">
+    <img src="img/Kalkulator.png" alt="no" />
+    <strong>Cash Drop</strong>
+    </div>
+    <div class="pilihan">
+      <div id="kontainer">
+        <p>Total Cash Drop :</p>
+        <input type="number" name="" class="inp cash" id="cash1" value="" /><br>
+        <input type="number" name="" class="inp cash" id="cash2" value="" /><br>
+        <input type="number" name="" class="inp cash" id="cash3" value="" /><br><br>
+        <input type="button" name="hasil2" class="submit" value="Hasil" onclick="getCash()"/>
+        <div id="hasil2"></div>
+        <button class="submit" type="reset">hapus</button>
+      </div>
+    </div>
+  </form>  
+  </center>
+  <center>
+    <form id="form3">
+      <div class="pilihan">
+      <img src="img/Emas.png" alt="no" />
+      <strong>Total Daily Sales</strong>
+      </div>
+      <div class="pilihan">
+        <p>Total Sales :</p>
+        <input type="number" name="" class="inp" id="ts1" value="" /><br>
+        <p>Total Customer :</p>
+        <input type="number" name="" class="inp" id="ts2" value="" /><br><br>
+        <input type="button" name="hasil2" class="submit" value="Hasil" onclick="totalSales()"/>
+        <div id="hasil3" onclick="copyText()"></div>
+        <button class="submit" type="reset">hapus</button>
+      </div>
+    </form>
+  </center>
+  <footer>
+    <div class="bottom">
+      by Dani Maulana @2021
+    </div>
+  </footer>
+<script src="main-beta.js"></script>
+</body>
+</html>
