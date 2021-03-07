@@ -1,10 +1,9 @@
-var p1,p2,p3,c1,c2,c3;
-
-p1 = document.getElementById('p1');
-p2 = document.getElementById('p2');
-p3 = document.getElementById('p3');
-c1 = document.getElementById('c1');
-c2 = document.getElementById('c2');
+var 
+p1 = document.getElementById('p1'),
+p2 = document.getElementById('p2'),
+p3 = document.getElementById('p3'),
+c1 = document.getElementById('c1'),
+c2 = document.getElementById('c2'),
 c3 = document.getElementById('c3');
 
 var rupiah = (ribuan)=>{
