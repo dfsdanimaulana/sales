@@ -26,6 +26,10 @@ let hasil=document.getElementById('hasil');
 parent.insertBefore(p,hasil);
 }
 
+const hapus =()=>{
+  var textArea=document.getElementById('hasil');
+  textArea.innerHTML='';
+}
 var span = document.getElementById("hasil");
 function copyText(){
     document.execCommand("copy");
