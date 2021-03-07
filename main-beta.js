@@ -56,11 +56,18 @@ var cashTotal=parseInt(eval(cash1.value+'+'+cash2.value+'+'+cash3.value));
   var cashHasil=document.getElementById('hasil2');
   cashHasil.innerHTML='Rp.'+rupiah(cashTotal);
 }
-  
+const hapus2 =()=>{
+  var textArea=document.getElementById('hasil2');
+  textArea.innerHTML='';
+}
 function totalSales(){
   var ts=document.getElementById('ts1').value;
   var tc=document.getElementById('ts2').value;
   var av=parseInt(eval(ts/tc));
   var hs=document.getElementById('hasil3');
   hs.innerHTML='Rp.'+rupiah(ts)+'<br/>CC : '+rupiah(tc)+'<br/>Avg : Rp.'+rupiah(av);
+}
+const hapus3 = () => {
+  var textArea = document.getElementById('hasil3');
+  textArea.innerHTML = '';
 }
